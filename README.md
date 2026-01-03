@@ -1,16 +1,33 @@
-# skl_1
+# 😊 Emojies App (Flutter)
 
-A new Flutter project.
+A clean and minimal **emoji-based feedback app** built with Flutter.  
+This project showcases **interactive UI, smooth emotion transitions, and expressive emoji states** using only the core Flutter SDK.
 
-## Getting Started
+![Emojies App Preview](docs/images/emojis-app.png)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
+- Emoji-based emotion slider
+- Real-time emoji facial expression changes
+- Smooth color transitions based on emotion
+- Clean, modern, and minimal UI
+- Single-screen focused user experience
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎭 Emotion Levels
+The app supports four emotion states:
+- 😠 Bad
+- 😕 Ugh
+- 😐 Ok
+- 🙂 Good
+
+Each emotion dynamically updates the UI color and emoji expression.
+
+---
+
+## 🛠 Built With
+- Flutter (Material 3)
+- Dart
+- No third-party dependencies

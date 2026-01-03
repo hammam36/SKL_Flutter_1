@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pages/login_page.dart';
+import 'screens/emoji_feedback_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,8 +13,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: 'LoginPage',
-      routes: {'LoginPage': (context) => const LoginPage()},
+      theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: const Color(0xFF6A7BD8),
+        brightness: Brightness.light,
+      ),
+      home: const EmojiFeedbackScreen(),
     );
   }
 }
